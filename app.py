@@ -28,6 +28,8 @@ while True:
             print(f"City: {weather['city']}")
             print(f"Temperature: {weather['temperature']}°C")
             print(f"Wind Speed: {weather['windspeed']} km/h")
+            print(f"Time: {weather['time']}")
+            print(f"Weather Code: {weather['weathercode']}")
 
     elif choice == "2":
         print("\n" + check_api_status())
